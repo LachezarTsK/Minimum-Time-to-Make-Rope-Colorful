@@ -11,7 +11,6 @@ public class Solution {
             }
             totalTime += Math.min(neededTime[i], maxTimeForCurrentColor);
             maxTimeForCurrentColor = Math.max(maxTimeForCurrentColor, neededTime[i]);
-
         }
         return totalTime;
     }
